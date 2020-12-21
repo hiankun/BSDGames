@@ -39,5 +39,10 @@ Take `atc` as the example, change the following paths in `atc/pathnames.h`:
 
 ---
 
-I also added `tetris_test/` for test.
-It is a stand-alone folder and the program can be build by using `bash build.sh`.
+# Build games separately
+
+* All the `*_test/` folders can be build separately by using their `bash build.sh`.
+* So far only three such folders:
+  * `tetris_test/`
+  * `worm_test/`
+  * `worms_test/`
