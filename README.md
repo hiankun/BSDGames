@@ -46,3 +46,4 @@ Take `atc` as the example, change the following paths in `atc/pathnames.h`:
   * `tetris_test/`
   * `worm_test/`
   * `worms_test/`
+* The original man page can be viewed by using `bash mandoc.sh` (require `groff` installed).
