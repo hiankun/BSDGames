@@ -41,7 +41,8 @@ Take `atc` as the example, change the following paths in `atc/pathnames.h`:
 
 # Build games separately
 
-* All the `*_test/` folders can be build separately by using their `bash build.sh`.
+* All the `*_test/` folders can be build separately by using `make` in their own folder.
+  (see `Makefile`)
 * So far only three such folders:
   * `tetris_test/`
   * `worm_test/`

@@ -83,7 +83,8 @@ fits_in(shape, pos)
 	const struct shape *shape;
 	int pos;
 {
-	int *o = shape->off;
+	//int *o = shape->off;
+	const int *o = shape->off;
 
 	if (board[pos] || board[pos + *o++] || board[pos + *o++] ||
 	    board[pos + *o])
@@ -100,7 +101,8 @@ place(shape, pos, onoff)
 	const struct shape *shape;
 	int pos, onoff;
 {
-	int *o = shape->off;
+	//int *o = shape->off;
+	const int *o = shape->off;
 
 	board[pos] = onoff;
 	board[pos + *o++] = onoff;

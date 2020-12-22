@@ -335,8 +335,9 @@ checkscores(hs, num)
 				continue;
 			}
 		}
-        if (sp->hs_level < NLEVELS && sp->hs_level >= 0)
+        if (sp->hs_level < NLEVELS && sp->hs_level >= 0) {
     		levelfound[sp->hs_level] = 1;
+	}
 		i++, sp++;
 	}
 	return (num > MAXHISCORES ? MAXHISCORES : num);

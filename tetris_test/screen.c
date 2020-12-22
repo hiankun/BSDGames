@@ -508,3 +508,4 @@ scr_msg(s, set)
 		putpad(CEstr);
 	}
 }
+
